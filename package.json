@@ -26,5 +26,10 @@
     "typescript": "^5.5.3"
   },
   "module": "dist/esm/index.js",
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^5.16.4"
+  }
 }
