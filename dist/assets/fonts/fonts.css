@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('./Comfortaa-Regular.ttf') format('truetype'); /* Update with actual hash */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('./Comfortaa-Bold.ttf') format('truetype'); /* Update with actual hash */
+  font-weight: bold;
+  font-style: normal;
+}

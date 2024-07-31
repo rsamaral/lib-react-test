@@ -1,20 +1,21 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "target": "esnext",                          // Modern JavaScript features
+    "lib": ["dom", "dom.iterable", "esnext"],    // Include modern lib features
+    "allowJs": true,                            // Allow JavaScript files
+    "skipLibCheck": true,                       // Skip library checks
+    "esModuleInterop": true,                    // Enable compatibility with CommonJS
+    "allowSyntheticDefaultImports": true,       // Allow synthetic default imports
+    "strict": true,                             // Enable all strict type-checking options
+    "forceConsistentCasingInFileNames": true,   // Ensure file name casing consistency
+    "noFallthroughCasesInSwitch": true,         // No fallthrough cases in switch statements
+    "module": "esnext",                         // Use ESNext module system
+    "moduleResolution": "node",                 // Resolve modules like Node.js
+    "resolveJsonModule": true,                  // Allow importing JSON modules
+    "isolatedModules": true,                    // Ensures that each file can be safely transpiled
+    "noEmit": false,                            // Emit output files
+    "jsx": "react-jsx",                         // JSX support for React
+    "outDir": "./dist"                          // Specify output directory
   },
   "include": ["src"]
 }
