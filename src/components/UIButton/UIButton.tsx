@@ -32,7 +32,7 @@ const StyledButton = styled(Button)<{ buttonType: 'black' | 'white' }>(
   })
 );
 
-const UIButton: React.FC<UIButtonProps> = ({ label, buttonType, ...props }) => {
+const UIButton = ({ label, buttonType, ...props }: UIButtonProps) => {
   return (
     <StyledButton buttonType={buttonType} {...props}>
       {label}
