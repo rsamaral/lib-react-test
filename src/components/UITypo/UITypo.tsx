@@ -1,7 +1,7 @@
 import Typography, { TypographyProps } from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
 import theme from '../../theme/theme';
-// Define the props interface including the custom ones
+
 interface CustomTypographyProps extends TypographyProps {
   variant?:
     | 'h1'
@@ -18,7 +18,6 @@ interface CustomTypographyProps extends TypographyProps {
   fontSize?: string;
 }
 
-// Create a styled Typography component with custom font and dynamic theming
 const CustomTypography = styled(Typography, {
   shouldForwardProp: (prop) => prop !== 'fontWeight' && prop !== 'fontSize',
 })<CustomTypographyProps>(({ fontWeight, fontSize, variant }) => {

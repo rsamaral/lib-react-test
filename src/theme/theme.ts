@@ -50,7 +50,6 @@ const theme = createTheme({
       fontWeight: 'normal',
       fontSize: '0.75rem',
     },
-    // Add other typography variants if needed
   },
 });
 
